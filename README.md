@@ -1,15 +1,39 @@
-# Krypt - Web 3.0 Blockchain Application
-![Krypt](https://i.ibb.co/DVF4tNW/image.png)
+Bhrvim Purohit, [01-05-2022 01:20]
+# CranberryCrypto
+![image](https://user-images.githubusercontent.com/103531635/166120630-5a03b7fd-ed22-4851-99df-2a2304b6e3e0.png)
 
-## Introduction
-This is a code repository for the corresponding video tutorial.
 
-Using Web 3.0 methodologies, Solidity and Metamask you'll learn how to build a your first real Web 3.0 Application - from start to finish.
+# Project Title
 
-Project created in collaboration with Enyel Sequeira: 
-Portfolio - https://www.enyelsequeira.com
-E-mail - enyelsequeira1994@gmail.com
-Want me to cover the project you've created? Send me an e-mail 👌
+The transfers of Ethereum  are tough now a days and the services avaliable are majorly very costly due to their commissions.
 
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://jsmasterypro.com/newsletter
+So, we have come up with up with a simple user friendly web app on which we can send crypto with a proper login and security system
+
+
+
+## TECHNOLOGIES USED
+
+[REACT JS](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
+
+[SOLIDITY](https://docs.soliditylang.org/en/v0.8.13/)
+
+[ETHERS](https://docs.ethers.io/v5/)
+
+[METAMASK](https://docs.metamask.io/guide/)
+
+[BLOCKCHAIN](https://docs.microsoft.com/en-us/learn/paths/ethereum-blockchain-development/)
+
+[WEB 3.0](https://ethdocs.org/en/latest/introduction/web3.html)
+
+
+
+
+
+
+## Authors
+
+- [@Bravim-Ketan-Purohit](https://github.com/Bravim-Ketan-Purohit)
+
+- [@SPARSHpathak2002](https://github.com/SPARSHpathak2002)
+
+- [@bhudevswayam](https://github.com/bhudevswayam)
