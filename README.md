@@ -1,4 +1,4 @@
-Bhrvim Purohit, [01-05-2022 01:20]
+
 # CranberryCrypto
 ![image](https://user-images.githubusercontent.com/103531635/166120630-5a03b7fd-ed22-4851-99df-2a2304b6e3e0.png)
 
