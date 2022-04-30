@@ -2,12 +2,20 @@ import React, { useContext } from "react";
 import { AiFillPlayCircle } from "react-icons/ai";
 import { SiEthereum } from "react-icons/si";
 import { BsInfoCircle } from "react-icons/bs";
-
 import { TransactionContext } from "../context/TransactionContext";
 import { shortenAddress } from "../utils/shortenAddress";
 import { Loader } from ".";
 import { BiBorderRadius } from "react-icons/bi";
 import Transactions from "./Transactions";
+import '.././index.css'
+
+function changeBackground(e){ 
+  e.target.style.background = 'red'
+}
+function changeBackgroundLeave(e){ 
+  e.target.style.background = 'black'
+}
+
 
 const style={
   color: 'black',
@@ -15,7 +23,8 @@ const style={
   fontFamily: "'Brush Script MT', cursive"
 }
 
-const companyCommonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-grey-4000 text-sm font-bold text-black";
+const companyCommonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-grey-4000 text-sm font-bold text-white";
+
 
 const Input = ({ placeholder, name, type, value, handleChange }) => (
   <input
@@ -64,20 +73,28 @@ const Welcome = () => {
             </button>
           )}
 
-          <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
-            <div className={`rounded-tl-2xl ${companyCommonStyles}`}>
-              <a>Reliability</a>
+          <div style={{background: 'black',borderRadius: '20px'}} className={`grid sm:grid-cols-3 grid-cols-2 w-full mt-10 .`}>
+            <div onMouseEnter={changeBackground} onMouseLeave={changeBackgroundLeave} className={`rounded-tl-2xl ${companyCommonStyles}`}>
+              <a href="https://www.ibm.com/topics/blockchain-security#:~:text=Basic%20blockchain%20security,-Blockchain%20technology%20produces&text=It's%20based%20on%20principles%20of,transaction%20or%20bundle%20of%20transactions" target='blank'>
+              Reliability</a>
             </div>
-            <div className={companyCommonStyles}>Security</div>
-            <div className={`sm:rounded-tr-2xl ${companyCommonStyles}`}>
-              Ethereum
-            </div>
-            <div className={`sm:rounded-bl-2xl ${companyCommonStyles}`}>
-              Web 3.0
-            </div>
-            <div className={companyCommonStyles}>Low Fees</div>
-            <div className={`rounded-br-2xl ${companyCommonStyles}`}>
-              Blockchain
+            <div onMouseEnter={changeBackground} onMouseLeave={changeBackgroundLeave} className={companyCommonStyles}>
+              <a href="https://academy.binance.com/en/articles/what-makes-a-blockchain-secure" target='blank'>
+              Security</a></div>
+            <button onMouseEnter={changeBackground} onMouseLeave={changeBackgroundLeave} className={`sm:rounded-tr-2xl ${companyCommonStyles}`}>
+              <a href="https://coinmarketcap.com/currencies/ethereum/" target='blank'>
+              Ethereum</a>
+            </button>
+            <button onMouseEnter={changeBackground} onMouseLeave={changeBackgroundLeave} className={`sm:rounded-bl-2xl ${companyCommonStyles}`}>
+              <a href="https://www.binance.com/en/blog/fiat/web-30-coin-the-newest-crypto-trend-in-2022-421499824684903194" target="blank">
+              Web 3.0</a>
+            </button>
+            <div onMouseEnter={changeBackground} onMouseLeave={changeBackgroundLeave} className={companyCommonStyles}>
+              <a href="https://ethereum.org/en/developers/docs/gas/" target='blank'> 
+              Low Fees</a></div>
+            <div onMouseEnter={changeBackground} onMouseLeave={changeBackgroundLeave} className={`rounded-br-2xl ${companyCommonStyles}`}>
+              <a href="https://academy.binance.com/en/glossary/blockchain" target='blank'>
+              Blockchain</a>
             </div>
           </div>
         </div>

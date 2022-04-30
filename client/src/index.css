@@ -30,7 +30,9 @@ body {
     background: linear-gradient(180deg,  #fbc8d4 0%, rgba(0,255,243,1) 23%, rgba(62,116,238,1) 42%, rgba(255,21,168,1) 66%, rgba(253,187,45,1) 100%);
 
 }
-
+.info{
+  color: #9795f0;
+}
 .gradient-bg-footer {
   background-image: linear-gradient(to bottom, black 0%, black);
 }
